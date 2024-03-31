@@ -1,8 +1,4 @@
-#/usr/bin/env bash
-
-all: README.md
-
-README.md: guessinggame.sh
+README.md:
 	echo "## The Unix Workbench Course Peer-Graded Assignment" > README.md
 	echo "*by Johns Hopkins University on [coursera.org](https://www.coursera.org/).*" >> README.md
 	echo "\\" >> README.md	
@@ -18,6 +14,3 @@ README.md: guessinggame.sh
 	echo "**Warm Regards,**" >> README.md
 	echo "\\" >> README.md
 	echo "**Majd El Alami**" >> README.md
-
-clean:
-	rm README.md
